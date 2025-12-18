@@ -1,0 +1,376 @@
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+alsa-utils
+amd-ucode
+arch-install-scripts
+archinstall
+b43-fwcutter
+base
+bind
+#brltty
+broadcom-wl-dkms
+btrfs-progs
+cryptsetup
+dhclient
+dhcpcd
+diffutils
+e2fsprogs
+edk2-shell
+efibootmgr
+exfatprogs
+f2fs-tools
+fatresize
+fsarchiver
+gpart
+gpm
+gptfdisk
+grml-zsh-config
+grub
+grub-btrfs
+hyperv
+intel-ucode
+iw
+iwd
+less
+libfido2
+libusb-compat
+linux
+linux-atm
+linux-firmware
+linux-firmware-bnx2x
+linux-firmware-marvell
+linux-firmware-qcom
+linux-firmware-qlogic
+linux-firmware-whence
+man-db
+man-pages
+memtest86+
+memtest86+-efi
+mkinitcpio
+mkinitcpio-archiso
+mkinitcpio-nfs-utils
+modemmanager
+nano
+neovim
+nfs-utils
+nilfs-utils
+ntfs-3g
+nvme-cli
+open-vm-tools
+partclone
+parted
+partimage
+ppp
+pptpclient
+qemu-guest-agent
+reflector
+rsync
+screen
+sof-firmware
+sg3_utils
+squashfs-tools
+sudo
+syslinux
+tmux
+tpm2-tss
+udftools
+usb_modeswitch
+usbmuxd
+usbutils
+virtualbox-guest-utils
+wireless-regdb
+wireless_tools
+wpa_supplicant
+wvdial
+
+# System
+archiso
+archlinux-appstream-data
+aspell
+aspell-en
+base-devel
+bash-completion
+bluez
+bluez-utils
+cmake
+devtools
+dkms
+efitools
+encfs
+fuse3
+fwupd
+git
+# gnome-disk-utility
+# gnome-keyring
+gocryptfs
+haveged
+htop
+hwdetect
+hwinfo
+libburn
+libisofs
+libisoburn
+linux-headers
+logrotate
+lsb-release
+openssl
+os-prober
+p7zip
+packagekit
+pacman-contrib
+pacutils
+pkgfile
+python-setuptools
+python-sphinx
+sdl12-compat
+sdl2
+udisks2
+unrar
+unzip
+upower
+xdg-user-dirs
+xz
+zstd
+
+# Filesystem
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+
+# Multimedia
+alsa-lib
+alsa-plugins
+alsa-firmware
+alsa-utils
+faac
+faad2
+ffmpeg
+ffmpegthumbnailer
+flac
+frei0r-plugins
+gstreamer
+gst-libav
+gst-plugins-base
+gst-plugins-good
+gst-plugins-bad
+gst-plugins-ugly
+gstreamer-vaapi
+imagemagick
+lame
+libdvdcss
+libopenraw
+mencoder
+mjpegtools
+mpv
+poppler-glib
+# Pipewire - comment out pulseaudio packages if using pipewire
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-docs
+pipewire-jack
+pipewire-pulse
+pipewire-v4l2
+alsa-card-profiles
+gst-plugin-pipewire
+wireplumber
+# Pulseaudio - comment out pipewire packages if using pulseaudio
+# pulseaudio
+# pulseaudio-alsa
+# pulseaudio-bluetooth
+# pulseaudio-equalizer
+# pulseaudio-jack
+x265
+x264
+xvidcore
+
+# XORG
+mesa
+xclip
+xorg-apps
+xorg-font-util
+xorg-fonts-75dpi
+xorg-fonts-100dpi
+xorg-fonts-encodings
+xorg-server
+xorg-server-common
+xorg-xinit
+xorg-xwayland
+
+# Networking
+curl
+dnsutils
+ethtool
+firefox
+firewalld
+iptables-nft
+modemmanager
+net-tools
+netctl
+networkmanager
+networkmanager-openvpn
+network-manager-applet
+nftables
+nm-connection-editor
+nss-mdns
+openresolv
+wget
+whois
+
+# Fonts
+ttf-dejavu
+ttf-liberation
+ttf-bitstream-vera
+ttf-ubuntu-font-family
+cantarell-fonts
+ttf-carlito
+noto-fonts
+opendesktop-fonts
+ttf-opensans
+freetype2
+ttf-jetbrains-mono-nerd
+
+# Printing Support
+cups
+cups-pdf
+cups-filters
+cups-pk-helper
+foomatic-db
+foomatic-db-engine
+ghostscript
+gsfonts
+gutenprint
+python-pillow
+python-pip
+python-pyqt5
+python-reportlab
+simple-scan
+system-config-printer
+
+# Gnome
+# accountsservice
+# adwaita-icon-theme
+# baobab
+# dconf-editor
+# decibels
+# gnome-applets
+# gnome-backgrounds
+# gnome-bluetooth-3.0
+# gnome-calculator
+# gnome-calendar
+# gnome-characters
+# gnome-clocks
+# gnome-color-manager
+# gnome-console
+# gnome-control-center
+# gnome-desktop
+# gnome-firmware
+# gnome-font-viewer
+# gnome-keyring
+# gnome-logs
+# gnome-maps
+# gnome-menus
+# nome-session
+# gnome-settings-daemon
+# gnome-shell
+# gnome-shell-extensions
+# gnome-software
+# gnome-system-monitor
+# gnome-terminal
+# gnome-text-editor
+# gnome-tour
+# gnome-tweaks
+# gnome-user-share
+# gnome-video-effects
+# gnome-weather
+# gsound
+# loupe
+# mutter
+# nautilus
+# papers
+# pavucontrol
+# polkit-gnome
+# dart-sass
+# sushi
+# showtime
+# resources
+# tldr
+# tmux
+# tracker3-miners
+# xdg-desktop-portal-gnome
+# xdg-user-dirs-gtk
+# yelp
+
+# Display Manager
+# gdm
+
+# Calamares dependencies (not listed elsewhere)
+calamares
+ckbcomp
+# AUR
+# yay-bin
+# Flatpak
+flatpak
+
+# Closed Source nvidia drivers
+#nvidia-dkms
+#nvidia-utils
+#lib32-nvidia-utils
+#nvidia-settings
+#vulkan-icd-loader
+#lib32-vulkan-icd-loader
+
+# Nyarch
+fastfetch
+fragments
+lollypop
+python-pywal
+nodejs
+npm
+geary
+kitty
+vte3
+#gnome-terminal-transparency
+plymouth
+libdrm
+pango
+python-numpy
+# gearlever
+timeshift
+#timeshift-autosnap
+tuned-ppd
+
+# Chaotic
+# chaotic-mirrorlist
+# chaotic-keyring
+
+# From chaotic
+# webapp-manager
+extension-manager
+shortwave
+# pamac
+komikku
+
+
+# ADDED BY DIO
+
+# KDE Plasma Desktop
+plasma-desktop
+plasma-nm
+plasma-pa
+# plasma-wayland-session
+kde-applications-meta
+yaml-cpp
+
+# Display Manager
+sddm
+sddm-kcm
+
+kpmcore
+qt6-svg
+qt6-declarative
+polkit-kde-agent
